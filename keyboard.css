@@ -1,0 +1,509 @@
+.container{
+
+	/*background-color: blue;*/
+    height: 100%;
+    width: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    position: absolute;
+    margin: 0 auto;
+}
+
+
+
+
+
+.brand{
+	
+	/*font-family: 'Bubblegum Sans', cursive;*/
+	
+
+	outline: solid black 1px;
+
+
+}
+
+
+.navbar-brand{
+
+
+	/*background-image: url("https://lh3.googleusercontent.com/32wXOByV5AiXHpwx_xjQmjcRuAtQ4RqoCDsa09kNdC577S6DMPvHWMU2Y1v-CEpY2a7V=w300");*/
+	
+	background-image: url("mdnote03.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	color: white! important;
+	font-size: 170%;
+
+
+
+	/*height: auto;
+*/
+
+	/*outline: solid black 1px;*/
+	top: 7%! important;
+	position: absolute! important;
+
+
+}
+
+
+
+#notePic{
+
+
+	
+	
+
+}
+
+.navbar{
+
+	padding-top: 3%;
+
+}
+
+.navEdit{
+
+
+	/*margin-top: 1%;*/
+	float: left;
+	padding-top: 1%;
+
+
+}
+
+.navMove{
+
+	position: absolute;
+	left: 15%;
+	top: 0%;
+
+
+}
+
+
+.separatorBar{
+
+	width: 100%;
+	display: block;
+	position: relative;
+	height: 10px;
+	/*background-color: green;*/
+
+}
+
+
+.innerContainer{
+
+	margin-top: 6%;
+	width: auto;
+	height: 85%;
+	/*outline: solid red 1px;*/
+	overflow-y: none;
+
+
+
+}
+
+
+.scaleListContainer{
+
+	/*position: absolute;*/
+	width: 40%;
+	height: 100%;
+	/*border: solid black 1px;*/
+	float: left;
+	display: inline;
+	position: absolute;
+    clip: rect(0px,465px,560px,0px);
+
+}
+
+.scaleListTitle{
+
+	width: 100%;
+	height: 6%;
+	/*outline: solid blue 1px;*/
+	font-size: 25px;
+	display: none;
+
+}
+
+
+.notesSelected{
+
+	width: 100%;
+	height: 6%;
+	/*outline: solid green 1px;*/
+	font-size: 20px;
+	margin-left: 2%;
+
+}
+
+.scaleList{
+
+	width: 100%;
+	height: 84%;
+	/*outline: solid orange 1px;*/
+
+
+
+}
+
+.keyboardContainer{
+
+	/*margin-left: 35%;
+	margin-right: 5%;
+	margin-top: 10%;*/
+	width: 63%;
+	height: 50%;
+	border: solid black 1.5px;
+	border-left: 1px;
+
+	
+	border-radius: 5px;
+	box-shadow: 0 8px 5px 0 rgba(0,0,0,.2);
+
+	float: right;
+	margin-top: 3%;
+
+}
+
+
+.keyboardContainer:hover {
+
+	cursor:pointer;
+
+
+}
+
+.blackKeyContainer{
+
+	width: 100%;
+	height: 60%;
+	/*border: solid blue 1px;*/
+	position: relative;
+	/*z-index: 1;*/
+	margin: 0 auto;
+}
+
+
+.blackKeySpace{
+
+
+	width: 2.382%;
+	height: 100%;
+	/*border: solid purple 1px;*/
+	display: inline-block;
+	background-color: white;
+	float: left;
+}
+
+
+.blackKey{
+
+	width: 4.76%;
+	height: 100%;
+	border-left: solid black 2px;
+	border-right: solid black 2px;
+	border-bottom: solid black 2px;
+	display: inline-block;
+
+	float: left;
+	background-color: #424242;
+	/*border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;*/
+	position: relative;
+	color: white;
+	line-height: 200%;
+	white-space: pre-wrap;
+	
+}
+
+
+.noteB{
+
+	height: auto;
+	width: auto;
+	/*outline: solid green 1px;*/
+	position: absolute;
+	bottom: 0;
+	display: none;
+
+
+	/*font size for keys with centering*/
+
+	left: 15%;
+	right: 15%;
+	font-size: 100%;
+
+}
+
+.whiteKeyContainer{
+
+	
+	width: 100%;
+	height: 40%;
+	/*border: solid black 1px;
+	border-radius: 5px;*/
+	position: static;
+	/*z-index: -1;*/
+}
+
+.whiteKey{
+
+	width: 7.142%;
+	height: 100%;
+	display: inline-block;
+	float: left;
+	border-left: solid black 1px;
+	border-right: solid black 1px;
+	background-color: white;
+
+	/*outline: solid black 1px;*/
+	line-height: 500%;
+	position: relative;
+	color: black;
+	/*background-color: blue;*/
+	
+}
+
+
+
+.noteW{
+
+	height: auto;
+	width: auto;
+	/*outline: solid green 1px;*/
+	position: absolute;
+	bottom: 0;
+	display: none;
+
+
+	/*font size for keys with centering*/
+
+	left: 35%;
+	right: 35%;
+	font-size: 100%;
+
+}
+
+.rightSideBorder{
+
+	border-right: solid black 1px;: 
+
+
+}
+
+
+.leftSideBorder{
+
+	border-left: solid black 1px;: 
+
+
+}
+
+
+.moveDown{
+
+	bottom: -50%;
+
+
+}
+
+.dropdownContainer{
+
+	right: 5%;
+	position: absolute;
+	top: 10%;
+	width: 50%;
+	/*border: solid black 1px;*/
+/*	width: auto;
+	max-height: 30%;*/
+
+}
+
+
+.dropdown1{
+
+
+	/*display: inline;*/
+	margin-left: 40%;
+	display: none;
+
+}
+
+.dropdown2{
+
+
+	
+	float: right;
+	display: none;
+
+}
+
+
+#content{
+
+	width: 90%;
+	height: 60%;
+	margin: 0% 0 0 6%;
+	/*border: solid black 1px;*/
+	display: none;
+
+}
+
+#content2{
+
+	width: 97%;
+	height: 85%;
+	/*border: solid red 1px;*/
+	position: relative;
+	z-index: 4;
+	margin-left: 1%;
+
+}
+
+
+.Chordname{
+
+
+	/*font-family: 'Bubblegum Sans', cursive;*/
+
+
+
+}
+
+
+.muiText{
+
+
+	width: 70%! important;
+
+
+}
+
+
+.submitForm{
+
+
+	
+
+	display: inline;
+
+
+
+
+}
+
+
+.submitButton{
+
+
+	float: right;
+	width: 20%;
+
+
+
+
+}
+
+
+.submitDiv{
+
+
+	float: right;
+	width: 80%;
+	/*border: solid black 1px;*/
+	display: none;
+
+
+
+
+}
+
+
+.scaleClass{
+
+	width: 100%;
+	height: 30px;
+	/*border: solid black 1px;*/
+
+
+}
+
+
+.scaleClass:hover {
+
+	cursor:pointer;
+	color:#c2185B;
+
+
+}
+
+.back{
+
+
+	display: none;
+
+}
+
+
+.reset{
+
+
+	float: right;
+	/*width: 80%;*/
+	/*border: solid black 1px;*/
+
+}
+
+.resetButton{
+
+
+
+}
+
+
+.scaleList{
+
+
+	overflow-y: scroll;
+
+
+
+}
+
+
+.keyAndType{
+
+
+	font-weight: bolder;
+	width: 25%;
+	/*border: solid orange 1px;*/
+	display: inline-block;
+	justify-content: stretch;
+	margin-left: 5%; 
+
+
+
+
+}
+
+
+.justAString{
+
+
+/*	font-weight: lighter;
+	margin-left: 10%;
+	display: inline;
+	width: 65%;*/
+	/*border: solid green 1px;*/
+	display: inline;
+	font-size: 95%;
+
+
+}
