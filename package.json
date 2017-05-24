@@ -1,0 +1,20 @@
+{
+  "name": "keyparty",
+  "version": "1.0.0",
+  "description": "finds modes that notes are in",
+  "main": "keyboard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jordanforbes/Key-Party.git"
+  },
+  "author": "Jordan Forbes, Daniel Juncos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jordanforbes/Key-Party/issues"
+  },
+  "homepage": "https://github.com/jordanforbes/Key-Party#readme"
+}
